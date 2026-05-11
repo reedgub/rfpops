@@ -1,0 +1,30 @@
+SOLICITATION NUMBER: 140D0423R0012
+SOLICITATION TITLE: DOI Cloud Infrastructure Modernization
+ISSUING AGENCY: Department of the Interior, Office of the Chief Information Officer
+NAICS CODE: 541512
+RESPONSE DEADLINE: 2026-07-01
+PLACE OF PERFORMANCE: Washington, DC and Reston, VA
+SET-ASIDE: 8(a) Small Business
+
+STATEMENT OF WORK
+
+1. BACKGROUND
+The Department of the Interior (DOI) requires cloud migration and modernization services
+to migrate 35 legacy applications from on-premises data centers to AWS GovCloud.
+
+2. SCOPE OF WORK
+The contractor shall provide cloud migration planning, execution, and hypercare services.
+The contractor shall maintain FedRAMP Moderate authorization throughout the engagement.
+The contractor shall complete migration of all 35 applications within 18 months.
+The contractor shall provide weekly status reports to the Contracting Officer's Representative.
+The contractor shall develop and maintain a Migration Runbook for each application.
+The contractor shall conduct performance testing before and after each migration event.
+The contractor shall provide 90-day post-migration support for each migrated application.
+
+3. EVALUATION CRITERIA
+Factor 1: Technical Approach (40 points)
+Factor 2: Past Performance (35 points)
+Factor 3: Price/Cost (25 points)
+
+PERIOD OF PERFORMANCE: 18 months
+ESTIMATED VALUE: $2.5M - $3.5M

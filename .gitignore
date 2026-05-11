@@ -1,4 +1,5 @@
 .env
+.coverage
 rfps/*
 !rfps/.gitkeep
 __pycache__/
