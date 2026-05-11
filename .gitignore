@@ -1,0 +1,16 @@
+.env
+rfps/*
+!rfps/.gitkeep
+__pycache__/
+.pytest_cache/
+node_modules/
+.next/
+*.pyc
+*.pyo
+.venv/
+dist/
+*.egg-info/
+.DS_Store
+*.log
+web/.next/
+web/node_modules/
