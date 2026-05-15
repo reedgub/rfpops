@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "RFPOps",
+  "version": "1.0.0",
+  "description": "Detect likely procurement pages and send them to RFPOps for bid/no-bid scoring.",
+  "permissions": ["activeTab", "tabs", "scripting", "storage", "sidePanel"],
+  "host_permissions": ["<all_urls>", "http://localhost:3000/*"],
+  "background": {
+    "service_worker": "assets/background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["assets/content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "RFPOps",
+    "default_popup": "popup.html"
+  },
+  "side_panel": {
+    "default_path": "sidebar.html"
+  }
+}

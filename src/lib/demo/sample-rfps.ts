@@ -1,0 +1,18 @@
+export const sampleBidRfp = {
+  title: "DHS Cloud Migration and FedRAMP Documentation Support",
+  text: `The Department of Homeland Security seeks a small business contractor to support cloud migration planning, FedRAMP documentation, security control mapping, and managed services transition support. The contractor shall demonstrate prior experience supporting federal cloud readiness or FedRAMP advisory efforts within the last three years. The contractor must provide project management, cybersecurity documentation, cloud architecture support, and data migration planning. The NAICS code is 541512. Proposals are due in 21 days. Evaluation factors include technical approach, past performance relevance, staffing plan, and price. Technical approach and past performance are significantly more important than price. Offerors must submit three past performance examples, a compliance matrix, and a staffing plan.`
+};
+
+export const sampleNoBidRfp = {
+  title: "DoD Classified Network Operations Support",
+  text: `The Department of Defense requires a contractor with an active Top Secret facility clearance to provide classified network operations, on-site cleared personnel, and 24/7 monitoring in a secure facility. Offerors without an active facility clearance at time of proposal submission will be deemed non-responsive. NAICS 541519. Proposals are due in 10 days.`
+};
+
+export const demoRfpTexts = {
+  dhsCloud: sampleBidRfp.text,
+  dodClassified: sampleNoBidRfp.text,
+  hhsData: `The Department of Health and Human Services requests support for data platform modernization, cloud data pipelines, data quality controls, dashboard migration, and secure analytics operations. The contractor shall provide data engineering, cloud architecture, project management, and documentation support. Offerors must show at least two federal data modernization projects and submit a compliance matrix, staffing plan, price volume, and transition plan. NAICS 541512. Proposals are due in 18 days. Evaluation gives equal weight to technical approach and past performance, with price less important than non-price factors.`,
+  vaHelpDesk: `The Department of Veterans Affairs seeks help desk modernization support under an existing prime contract. The subcontractor shall provide Tier 1 and Tier 2 support process redesign, knowledge base cleanup, service desk reporting, and managed services transition support. The work is staff-augmentation heavy and includes strict service-level metrics. Offerors must provide prior help desk modernization examples, resumes, and a staffing plan. Proposals are due in 12 days. Price realism and staffing continuity are important evaluation factors.`,
+  gsaCyber: `The General Services Administration requires cybersecurity documentation support for cloud authorization packages, security control traceability, system security plan updates, and FedRAMP readiness advisory support. The contractor must demonstrate experience with federal cloud security documentation, NIST 800-53 controls, POA&M management, and stakeholder workshops. GSA MAS access is required. NAICS 541512. Responses are due in 24 days. Offerors shall submit a technical approach, past performance, compliance matrix, and quality control plan.`,
+  statePortal: `The State Procurement Office seeks a fixed-price vendor to rebuild a public benefits portal, replace legacy custom code, migrate data, integrate payment workflows, and deliver a complete production launch in four months. The contractor must accept a fixed-price development contract with liquidated damages and provide five comparable statewide portal implementations. The estimated budget is $220,000. Proposals are due in 9 days. Lowest price technically acceptable procedures will be used.`
+};

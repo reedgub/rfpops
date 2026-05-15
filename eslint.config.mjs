@@ -1,0 +1,32 @@
+import { FlatCompat } from "@eslint/eslintrc";
+import js from "@eslint/js";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const compat = new FlatCompat({
+  baseDirectory: __dirname,
+  recommendedConfig: js.configs.recommended
+});
+
+const config = [
+  {
+    ignores: [
+      ".next/**",
+      "node_modules/**",
+      "extension/dist/**",
+      "coverage/**",
+      "package-lock.json",
+      "next-env.d.ts"
+    ]
+  },
+  ...compat.extends("next/core-web-vitals", "next/typescript"),
+  {
+    rules: {
+      "@typescript-eslint/no-explicit-any": "off"
+    }
+  }
+];
+
+export default config;
